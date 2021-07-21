@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+
+.head-title{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.sayiz-text{
+    font-size: 32px;
+}
+
+.img-holder{
+    border: 5px solid black;
+    border-radius: 50%;
+}
+
+.img-text-holder{
+    margin-top: 3rem;
+}
+
+@media screen and (max-width:768px) {
+ .sayu{
+    width:200px;
+ }
+ .img-text-holder{
+    margin-top: 2.3rem;
+}
+.sayu-holder{
+    margin-top:4rem;
+}
+.head-title{
+    font-size: 30px;
+}
+}
+@media screen and (max-width:576px) {
+    .head-title{
+        font-size: 25px;
+    }
+    .sayiz-text{
+        font-size: 20px;
+    }
+    .img-text-holder{
+        margin-top: -2.3rem;
+    }
+    .sayu-holder{
+        margin-top:2rem;
+    }
+    
+}
+
+@media screen and (min-width:450px) {
+    .van-back{
+
+        margin-top: -7rem;
+        z-index: -10;
+
+    }
+}
+@media screen and (min-width:768px) {
+    .van-back{
+
+        margin-top: -10rem;
+        z-index: -10;
+
+    }
+    .sayu{
+        width: 200px;
+    }
+    .img-text-holder{
+        margin-top: 2.3rem;
+    }
+    .sayu-holder{
+        margin-top:4rem;
+    }
+}
+@media screen and (min-width:900px) {
+    .van-back{
+
+        margin-top: -10rem;
+        z-index: -100;
+
+    }
+    .sayu{
+        width: 300px;
+    }
+    .img-text-holder{
+        margin-top: 2.3rem;
+    }
+    .sayu-holder{
+        margin-top:4rem;
+    }
+}
+
+.back-img{
+    margin-left: 50%;
+    transform: translate(-50%);
+}
